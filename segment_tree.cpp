@@ -1,5 +1,5 @@
+template<class T>
 struct segment_tree {
-    typedef int T;
     static constexpr T INF = -1e9;
     T f(const T &a, const T &b) {
         return max(a,b);

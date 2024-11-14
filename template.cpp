@@ -11,6 +11,22 @@ using namespace std;
 template<class T1,class T2> bool maximize(T1 &a,T2 b) {return(a<b ? a=b,1:0);};
 template<class T1,class T2> bool minimize(T1 &a,T2 b) {return(a>b ? a=b,1:0);};
 mt19937_64 rnd(chrono::high_resolution_clock::now().time_since_epoch().count());
+
+// ===================<< CONSTANT >>====================
+
+
+// ===================<< END OF CONSTANT  >>====================
+
+// ===================<< STRUCTS,CLASSES >>====================
+
+
+
+// ===================<< END OF STRUCTS,CLASSES >>====================
+
+// ===================<< THE MAIN BODY STARTS HERE >>====================
+
+
+
 void leeminhduc2()
 {
     
