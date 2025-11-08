@@ -12,19 +12,6 @@ template<class T1,class T2> bool maximize(T1 &a,T2 b) {return(a<b ? a=b,1:0);};
 template<class T1,class T2> bool minimize(T1 &a,T2 b) {return(a>b ? a=b,1:0);};
 mt19937_64 rnd(chrono::high_resolution_clock::now().time_since_epoch().count());
 
-// ===================<< CONSTANT >>====================
-
-
-// ===================<< END OF CONSTANT  >>====================
-
-// ===================<< STRUCTS,CLASSES >>====================
-
-
-
-// ===================<< END OF STRUCTS,CLASSES >>====================
-
-// ===================<< THE MAIN BODY STARTS HERE >>====================
-
 
 
 void leeminhduc2()
@@ -36,11 +23,6 @@ signed main()
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     //cin.exceptions(cin.failbit); //input error will cause RTE instead of WA, use this if needed
-    if (fopen(TASK".inp","r"))
-    {
-        freopen(TASK".inp","r",stdin);
-        freopen(TASK".out","w",stdout);
-    }
     int tc=1;
     //cin >> tc;
     while (tc--)

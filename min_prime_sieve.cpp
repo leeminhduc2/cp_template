@@ -11,4 +11,12 @@ struct min_prime_sieve
                 for (long long j=1ll*i*i;j<=n;j+=i) if (minPrime[j] == 0) minPrime[j] = i;
             }
     }
+    bool is_prime(int i) {
+        assert(i <= n);
+        return (minPrime[i] == i);
+    }
+    int min_prime(int i) {
+        assert(i <=n);
+        return minPrime[i];
+    }
 };
