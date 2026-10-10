@@ -1,0 +1,3 @@
+Linearity of EV : E(X + Y) = E(X) + E(Y)
+For two independent event : E(XY) = E(X).E(Y)
+Usually when calculating EV for infinite series, you can "cheat" by running a loop and observe the value's convergence

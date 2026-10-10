@@ -1,3 +1,4 @@
+// Normal implementation of lazy segment tree with O(4*n) space complexity
 template <class T>
 struct lazy_segment_tree
 {

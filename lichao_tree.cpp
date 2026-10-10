@@ -13,7 +13,7 @@ struct lichaotree
     long long l,r,m;
     Line d;
     lichaotree(long long l,long long r) : l(l),r(r),d(0ll,1e18) {
-        this->m=this->l+(this->r-this->l+1)/2;
+        this->m=this->l+(this->r-this->l)/2;
         this->left=nullptr;
         this->right=nullptr;
     }
